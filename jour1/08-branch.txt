@@ -31,10 +31,12 @@ si on est content => fusionner la branch sur laquelle on travaille avec la branc
 0 verifier que l'ensemble des fichiers soient commits sur la branch principale
 git add --all
 git commit -m "finaliser branch" 
+git status => nothing to commit 
 
 1 ---------
 git branch menu  // permet de créer la branch menu (qui est un monde parallèle à la branch principale)
 git checkout menu  // déplacer dans la branch principale => branch menu 
+git branch // pour savoir sur quelle branch je travaille 
 
 2 -----------
 travailler sur la branch
