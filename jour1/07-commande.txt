@@ -70,3 +70,9 @@ git checkout master
 
 -----------------------
 
+git revert copier un ancien commit pour le mettre comme commit actuel
+git reset supprimer des commits entre maintenant et l'id du commit 
+
+git log --oneline
+
+git reset 89d6853 --hard
