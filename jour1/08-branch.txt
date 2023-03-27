@@ -58,4 +58,11 @@ si n'est pas content
 git checkout master / main // se déplacer sur la branch principale
 git branch -D menu // supprimer la branch menu sans la fusionner 
 
+git merge menu 
 
+Updating 3a41483..feb7da0
+Fast-forward
+ jour1/08-branch.txt       |  6 ++++++
+ jour1/09-autre-fichier.js | 17 +++++++++++++++++
+ 2 files changed, 23 insertions(+)
+ create mode 100644 jour1/09-autre-fichier.js
