@@ -19,3 +19,5 @@ password : git
 https://github.com/webdevproformation/git-d-mars-2023 xxx (pb chez Microsoft)
 
 https://gitlab.com/w825/git-d-mars-2023 (nouveau dépôt)
+
+https://bitbucket.org/formationwebdevpro/git-d-mars-2023/src/main/
