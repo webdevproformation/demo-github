@@ -70,3 +70,10 @@ git checkout master
 
 -----------------------
 
+git log --oneline 
+
+git reset <id> --hard 
+git reset détruit supprimer les commits (impossible 
+de les récupérer )
+
+pas possible de revenur en arrière sur un reset 
