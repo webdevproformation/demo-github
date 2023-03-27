@@ -70,6 +70,7 @@ git checkout master
 
 -----------------------
 
+
 git log --oneline 
 
 git reset <id> --hard 
@@ -77,3 +78,11 @@ git reset détruit supprimer les commits (impossible
 de les récupérer )
 
 pas possible de revenur en arrière sur un reset 
+
+git revert copier un ancien commit pour le mettre comme commit actuel
+git reset supprimer des commits entre maintenant et l'id du commit 
+
+git log --oneline
+
+git reset 89d6853 --hard
+
