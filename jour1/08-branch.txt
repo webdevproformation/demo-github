@@ -43,6 +43,10 @@ travailler sur la branch
 git add --all
 git commit -m "....." sur cette branch 
 
+lorsque vous voulez revenir sur la branch principale 
+il faut au préalable QUE que les fichiers sur la branch soient
+à 100% staged 
+
 3a -----------
 si on est content 
 git checkout master / main // se déplacer sur la branch principale 
