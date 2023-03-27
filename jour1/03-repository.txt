@@ -31,6 +31,8 @@ configurer le profil utilisateur
 git config --global user.name "Malik H"
 git config --global user.email "malik.h@ebdevpro.net"
 
+
+bonjour 
 git config -l
 
 git config --global user.name "Prénom Nom"
