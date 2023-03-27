@@ -1,0 +1,20 @@
+git log => la liste de tous les commit 
+
+commit a0dc31fa88bf35a8802ca163d7cb91c94b57d2f1 (HEAD -> main, origin/main)
+Author: Malik H <malik.h@webdevpro.net>
+Date:   Mon Mar 27 15:02:37 2023 +0200
+
+    modification
+
+commit 7fd382e21361a329ca1d3f974cc1edb4eb580c77
+Author: Malik H <malik.h@webdevpro.net>
+Date:   Mon Mar 27 15:00:18 2023 +0200
+
+    start
+
+q => libérer le terminal 
+
+git log --oneline => version plus compact de git log 
+id version courte a0dc31f 
+
+revenir dans le passé
