@@ -15,3 +15,5 @@ function calcul(){
 // git branch -M menu
 
 // git log --oneline 
+
+// find de journée
