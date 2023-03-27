@@ -86,3 +86,13 @@ git log --oneline
 
 git reset 89d6853 --hard
 
+supprimé // récupérer la suppression 
+git reset 89d6853 --hard
+git add --all 
+git commit -m "sauvegarde" 
+git reflog 
+git branch recuperation <id reflog avant le reset> 
+git merge 
+
+
+
