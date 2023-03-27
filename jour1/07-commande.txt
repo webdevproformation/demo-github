@@ -60,4 +60,13 @@ revenir dans le passé (revenir dans les précédent commit)
 
 git log --oneline
 
-git checkout a0dc31f
+git checkout a0dc31f (venir dans le passé)
+attention le fait de revenir dans le passé permet de regarder
+MAIS vous ne pouvez pas modifier / add / commit 
+
+revenir maintenant 
+git checkout main 
+git checkout master
+
+-----------------------
+
