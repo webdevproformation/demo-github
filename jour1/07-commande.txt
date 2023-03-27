@@ -50,3 +50,14 @@ index fb06ac7..e69de29 100644
 -id version courte a0dc31f 
 -
 -revenir dans le passé
+
+git diff jour1/07-commande.txt
+
+--------
+
+commande permet de navigateur entre les commits 
+revenir dans le passé (revenir dans les précédent commit)
+
+git log --oneline
+
+git checkout a0dc31f
