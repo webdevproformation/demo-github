@@ -28,14 +28,18 @@ si on n' est pas content => sortir de la branch (
 
 si on est content => fusionner la branch sur laquelle on travaille avec la branch principale 
 
+0 verifier que l'ensemble des fichiers soient commits sur la branch principale
+git add --all
+git commit -m "finaliser branch" 
+
 1 ---------
 git branch menu  // permet de créer la branch menu (qui est un monde parallèle à la branch principale)
 git checkout menu  // déplacer dans la branch principale => branch menu 
 
 2 -----------
 travailler sur la branch
-git add 
-git commit sur cette branch 
+git add --all
+git commit -m "....." sur cette branch 
 
 3a -----------
 si on est content 
