@@ -1,0 +1,43 @@
+commencer à utiliser git 
+
+pour utiliser git sur un projet existant 
+
+
+git init 
+
+Initialized empty Git repository in C:/Users/harri/Desktop/git/.git/
+=> crée un dossier caché => .git dans le projet en cours 
+=> ce dossier caché => nom spécial => repository (dépôt)
+=> ce dossier caché stockée les 4 questions suivies par git 
+
+=> version / qui / quel fichier / pourquoi / quand 
+
+=> fichier internes de git qui lui permettent de fonction 
+
+=> git init  
+fatal: Invalid gitfile format: .git
+
+au lieu de "Initialized empty Git repository in C:/Users/harri/Desktop/git/.git/"
+
+.git créée qui empêche la création du dossier .git 
+rm -fr .git // permet de supprimer un fichier / dossier sur Linux / MacOS 
+
+git init
+"Initialized empty Git repository in C:/Users/harri/Desktop/git/.git/"
+
+configurer le profil utilisateur 
+=> qui a réalisé la modification => configurer dans notre ordinateur 
+
+git config --global user.name "Malik H"
+git config --global user.email "malik.h@ebdevpro.net"
+
+git config -l
+
+git config --global user.name "Prénom Nom"
+git config --global user.email "votre@email.fr"
+
+attention la souris ne permet pas de sélectionner plusieurs caractères
+ou de revenir dans une commande 
+suppr ou fleche directionnelle du clavier 
+fin Enter pour valider 
+

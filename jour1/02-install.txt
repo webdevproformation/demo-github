@@ -1,0 +1,53 @@
+
+aller sur le lien suivant :
+https://git-scm.com/downloads
+télécharger le fichier .exe (windows) => double cliquer
+next next .... Fin 
+laissé toutes les options conseillées (sans aucune )
+installation 
+Finish => page web (Release) => Dernière Publication / Sortie d'un projet
+
+v2.40.0
+
+rdv 10h20 => bon café 
+
+=> linux / MacOS => ligne de commande 
+
+windows / mac OS => DANS Visual Studio Code 
+=> il y a un terminal disponible 
+
+Dans la barre de menu en haut => terminal / console / shell / cmd 
+
+saisir la commande suivante Terminal > New Terminal (zone en bas de l'écran)
+
+git --version
+
+git version 2.40.0.windows.1 => félicitation vous avez installé git 
+
+
+https://git-scm.com/downloads
+
+télécharger et exécuter et fermer Visual Studio COde => redémarrer 
+
+message d'erreur suivant :
+
+il me répond                                                        
+
+git : Le terme «git» n'est pas reconnu comme nom d'applet de commande, fonction, fichier de script ou programme 
+exécutable. Vérifiez l'orthographe du nom, ou si un chemin d'accès existe, vérifiez que le chemin d'accès est 
+correct et réessayez.
+Au caractère Ligne:1 : 1
++ git --version
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (git:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+=> dans un ordinateur (windows)=> il y a plusieurs terminal 
+cmd => invite de commande
+powershell => xxxx 
+
+PATH => git n'est pas dans le PATH du terminal powershell => choisir "Command Prompt" (windows)
+
+git --version 
+
+git version 2.40.0.windows.1 => l'installation est réalisée !!! 

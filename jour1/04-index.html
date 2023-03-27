@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Bonjour tout le monde</p>
+    <!-- 
+        je veux garder l'evolution de ma page 04-index.html 
+        je veux stocker les différentes phases de l'évolution de ce fichier 
+        => git !!! 
+        git add --all
+        git commit -m "création page d'accueil"
+
+        [main dcd1002] création page d'accueil
+        1 file changed, 18 insertions(+)
+
+        git add --all 
+        git add => action sélectionner des fichiers pour les versionner dans repo
+             --all => tous les fichiers 
+
+        git commit -m "message" => l'action d'enregistrement des fichiers DANS
+            le repo 
+         git commit => enregistre  dans le dossier .git 
+
+         -m "création page d'accueil" => associer à l'enregistrement un message 
+         expliquer pourquoi on réalisé l'enregistrement 
+
+         2 étapes => selectionne git add --all 
+                  => enregistrer avec un mesage git commit -m "modifier ... "
+        
+        dès que tu fait évolution n'importe quel fichier 
+        ajouter de nouveau fichier 
+        supprimer des fichiers 
+        
+    -->
+    <article>
+        <h2>je suis un article</h2>
+        <img src="https://via.placeholder.com/400x200" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint aliquam laborum quia quas quibusdam esse sapiente recusandae placeat velit, ex, ratione, facere natus? Facere qui adipisci distinctio incidunt voluptas esse.</p>
+    </article>
+    <!-- 
+        Enregistrer le fichier 
+        git add --all
+        git commit -m "création d'un article"
+
+        git => outil histoire de ton code / correction de bug 
+    -->
+    <table>
+        <!-- tr*5>td*3>lorem2 
+        
+        git config --global gui.encoding utf-8
+        -->
+        <tr>
+            <td>étudiant Doranco</td>
+            <td>élève en formation</td>
+            <td>être dans la découverte</td>
+        </tr>
+        <tr>
+            <td>Lorem, ipsum.</td>
+            <td>Rerum, consequatur!</td>
+            <td>Perspiciatis, voluptatum.</td>
+        </tr>
+        <tr>
+            <td>Lorem, ipsum.</td>
+            <td>Voluptatem, veniam.</td>
+            <td>Doloribus, laborum!</td>
+        </tr>
+        <tr>
+            <td>Lorem, ipsum.</td>
+            <td>Quam, nostrum.</td>
+            <td>Quas, corporis?</td>
+        </tr>
+        <tr>
+            <td>Lorem, ipsum.</td>
+            <td>Quisquam, impedit.</td>
+            <td>Maiores, natus!</td>
+        </tr>
+    </table>
+
+    <form action="">
+        <input type="text" placeholder="votre@email">
+        <input type="submit" value="s'inscrire à la newsletter">
+    </form>
+    <!-- 
+        Enregistrer 
+        git add jour1/04-index.html
+        git add --all 
+        git commit -m "ajout d'un formulaire de newsletter"
+    -->
+    <!-- au minimum 3 commit 
+    outil gitk
+    gitk 
+    attention git est outil de VERSIONNING incrémental (stocker QUE les modifications )
+    et non tout le fichier à chaque fois (gagner de la place)
+    seul lors de la création du fichier stocke le fichier à 100% 
+    pour les suivants => INCREMENT
+    -->
+
+    <!-- 
+        dans le fichier 04-index.html 
+        ajouter un tableau <table> entre le formulaire de newsletter et l'article 
+            ce table contient 5 lignes et 3 colonnes avec 2 mots par cellule 
+
+        add et commit 
+        gitk pour confirmer que vous avez bien enregistré votre version dans le repository
+    
+        rdv 13h31 bon appétit !!!!!!!!!!!!!!!!!!
+
+        présenté git => outil de versioning
+        moyen de garder une trace de l'évolution des projets 
+        noter pour vous 4 informations : qui / quand / quoi / pourquoi ??
+        
+        4 commandes 
+        git init => exécuté 1 seule fois lors du projet => crée repository (dépot)
+
+            travailler => écrire dans un ou plusieurs fichiers (ajouter une fonction)
+            Enregistrer
+
+        git add --all => plusieurs fois sélectionner quel fichier on veut versionner
+        git commit -m "...." => plusieurs fois  l'action d'ajouter dans le repository
+        // 2 commandes l'une après l'autres
+        // créer COMMIT sauvegarde de version // sauvegarde INCREMENTALE 
+
+            travailler => écrire dans un ou plusieurs fichiers (ajouter une fonction)
+            Enregistrer
+        
+        git add --all
+        git commit -m "...." 
+
+        gitk => outil tableau de bord => réponse qui / quand / quoi / pourquoi ??
+
+        Quand vous travaillez avec git ET Visual Studio Code
+
+        Dans Visual Studio Code => annotation dans l'explorer
+
+        modifié le fichier 04-index.html => M
+        créer un nouveau fichier 05-presentation.html U 
+
+        état des documents par rapport au repository 
+
+        git status
+
+        Untracked files:
+        (use "git add <file>..." to include in what will be committed)
+                jour1/05-presentation.html
+
+        no changes added to commit (use "git add" and/or "git commit -a")
+   
+        git status connaitre l'ecart entre repository et le projet
+
+        => fichier 04-index.html => Changes not staged
+            expliquer quelles commandes saisir pour changer leur etat
+        => jour1/05-presentation.html => Untracked files:
+
+        => changer son état de Untracked => Unstaged 
+        git add jour1/05-presentation.html
+        git status 
+
+        Untracked => UnstAged (il est sélectionné et prêt pour être commité dans repo)
+
+        UnstAge => Staged (commité)
+
+        git commit -m "ajout du fichier presentation"
+
+        A => rien (copié de votre fichier === copie incrémentale dans le repository)
+
+        Nouveau fichier 
+        U --> A --> rien 
+        Untracked 
+            git add 
+        unstAged
+            git commit 
+        staged => rien 
+
+        dans le cas du fichier 04-index.html (déjà été enregistré dans le repository)
+            git status
+        Modified 
+            git add jour1/04-index.html
+            git status
+        unstAged
+            git commit -m "commentaires intéressants"
+            git status
+        Staged => plus d'annotation
+            git status 
+            nothing to commit, working tree clean
+
+        M --> M ---> rien
+
+        cas pratique créer un fichier 06-exo.html
+        écrire du html dedans 
+        mettre ce fichier dans l'état Unstaged 
+
+        modifier le fichier 05-presentation.html
+        mettre ce fichier dans l'étage Unstaged 
+
+        git commit -m "fin exo"
+    -->
+</body>
+</html>

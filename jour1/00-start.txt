@@ -1,0 +1,21 @@
+Malik HARRIZ
+malik.h@webdevpro.net 
+
+programme de la semaine :
+Git (2 jours)
+GitLab (CI CD) 2 jours => Continus Integration Continus Delivery 
+SQL (1 jour)
+
+pour chaque sujet il y a un support : 
+
+https://formation.webdevpro.net/git (saisir directement dans la barre d'adresse pas dans Google)
+login : git
+password : git
+(mettre les login et password en minuscule)
+
+=> notes de cours vont être partagées sur github (ça fait partie du cours)
+
+=> notes de cours :
+https://github.com/webdevproformation/git-d-mars-2023 xxx (pb chez Microsoft)
+
+https://gitlab.com/w825/git-d-mars-2023 (nouveau dépôt)

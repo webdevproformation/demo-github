@@ -1,0 +1,68 @@
+Présentation 
+
+Git => Logiciel qui permet de réaliser du VERSIONNING de votre code 
+Git logiciel qui fait partie de la palette d'outils de l'informaticien 
+
+Outil => permet de garder une trace dans l'ordinateur de toutes les versions de votre code 
+
+IL va permettre d'éviter de dupliquer du code pour garder une archive des anciennes versions
+
+projet de site internet avec javascript 
+
+index.html => écrire du html dedans => enregistrer 
+index.html => ajouter une barre de menu => enregistrer
+index.html => correction du la largeur d'un élément => enregistrer
+
+=> je vais garder une copie du fichier index.html en PLUS du fichier index.html pour au cas où je n'arrive plus à avancer => revenir en arrière à cette version QUI fonctionne  
+
+index.html  => VERSIONNING (à la main)
+index-v0.html
+index-v1.html
+index-03-2023.html
+
+=> 1 seule personne qui code et qui crée les archives des anciennes versions => ce n'est pas optimal MAIS c'est gérable 
+
+=> si plus 2 développeurs et que l'on travaille sur 1 projet 
+=> index.html 
+=> index-v0-Alain.html => Menu
+=> index-v1-Alain.html 
+
+=> index.html 
+=> index-v0-Céline.html => diaporama 
+=> index-v1-Céline.html
+
+
+=> comment réconcilier le travail de 2 ou plus de développeurs 
+=> l'un des développeurs récupérer le récupérer le travail de l'autre (par email / clé usb / wetransfer)
+
+=> regarder ligne par ligne (c'est les nouveautés ) => fusion avec son travail 
+=> FASTIDIEUX !!!! 
+
+=> l'outil de VERSIONNING va jouer un rôle majeur 
+
+=> permet de garder une copie des chaque version du projet 
+=> permet de réconcilier une copie du projet réalisé par un autre développeur 
+
+comment git va réaliser ce travail : répondre à 4 questions 
+- qui (réaliser la modification / ajouté)
+- quand (saisir des commandes et daté et horodaté)
+- pourquoi ( raison mini explication de l'ajout / modif code)
+- où (quel fichier / quel dossier / quel ligne a été ajoutée / modifiée / supprimé ?)
+
+utile à plusieurs / seul c'est bien aussi 
+
+=> créateur de git => Linus Torvald (le créateur de Linux)
+
+=> avant git => SVN l'outil avant git
+=> Linus Torvald utilisait SVN professionnellement (très très lent) => horreur
+pour gérer la création et maintenance => qui lui envoie par email le code (fonctionnalité)
+chargé manuellement de réconcilier le noyau de Linux 
+
+=> c'est un outil (git) pour lui faciliter son travail 
+=> révolutionnaire changé la manière de coder !
+
+=> ATTENTION ATTENTION il ne faut pas confondre 
+- git (outil installé sur votre ordinateur) et 
+- github (site internet dans lequel on va pouvoir partagé notre code ) 
+
+git et github collaborent étroitement ensemble MAIS ce sont 2 entités bien séparées 
