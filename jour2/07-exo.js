@@ -1,1 +1,3 @@
-function calcul(){}
+function calcul(a,b){
+    return a + b ;
+}
