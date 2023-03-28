@@ -29,5 +29,161 @@ positionner sur la branch principale fusionner la branch principale avec la bran
 
 => draw.io integration
 
+feliciaayodeji@Felicias-Air git % git add --all
+feliciaayodeji@Felicias-Air git %  git commit -m "01-exo.html"       
+[main f0d08bc] 01-exo.html
+ 4 files changed, 140 insertions(+)
+ create mode 100644 jour2/00-start.txt
+ create mode 100644 jour2/01-branch.drawio
+ create mode 100644 jour2/01-exo.html
+feliciaayodeji@Felicias-Air git % git add --all
+feliciaayodeji@Felicias-Air git % git commit -m "ajoute article et un formulaire"
+[main 7d8afc9] ajoute article et un formulaire
+ 1 file changed, 6 insertions(+), 1 deletion(-)
+
+feliciaayodeji@Felicias-Air git % git branch css
+fatal: a branch named 'menu' already exists
+                                  git checkout css 
+
+feliciaayodeji@Felicias-Air git % git branch menu
+fatal: a branch named 'menu' already exists
+feliciaayodeji@Felicias-Air git % git branch 
+* main
+  menu
+feliciaayodeji@Felicias-Air git % git add --all
+feliciaayodeji@Felicias-Air git % git commit -m "style.css"
+[main 9ec7cd5] style.css
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 jour2/style.css
+feliciaayodeji@Felicias-Air git % git checkout menu
+Switched to branch 'menu'
+feliciaayodeji@Felicias-Air git %  git status
+On branch menu
+nothing to commit, working tree clean
+                                    git checkout main 
+
+feliciaayodeji@Felicias-Air git % git merge menu
+Already up to date.
+feliciaayodeji@Felicias-Air git %
+
+
+-----------------------------------------
+
+C:\Users\nadin\Desktop\Github\Jour1>git add --all
+
+C:\Users\nadin\Desktop\Github\Jour1>git commit -m "finaliser branch"
+[menu 8a5bd71] finaliser branch
+ 2 files changed, 29 insertions(+)
+ create mode 100644 09-autre-fichier.js
+
+C:\Users\nadin\Desktop\Github\Jour1>git status
+On branch menu
+nothing to commit, working tree clean
+
+C:\Users\nadin\Desktop\Github\Jour1>git branch menu // créer une branch (un monde parallèle MAIS le nom de la branch est déjà pris  )
+fatal: a branch named 'menu' already exists
+                                    git checkout menu // déplacer la branch menu 
+
+C:\Users\nadin\Desktop\Github\Jour1>git branch master
+fatal: a branch named 'master' already exists
+
+C:\Users\nadin\Desktop\Github\Jour1>git branch 
+  master
+* menu
+  recuperation
+
+C:\Users\nadin\Desktop\Github\Jour1>git branch main
+
+C:\Users\nadin\Desktop\Github\Jour1>git add --all
+
+C:\Users\nadin\Desktop\Github\Jour1>git commit -m "finaliser branch"
+On branch menu
+nothing to commit, working tree clean
+
+C:\Users\nadin\Desktop\Github\Jour1>git status
+On branch menu
+nothing to commit, working tree clean
+
+C:\Users\nadin\Desktop\Github\Jour1>git branch menu
+fatal: a branch named 'menu' already exists
+
+C:\Users\nadin\Desktop\Github\Jour1>git checkout menu
+Already on 'menu'
+
+C:\Users\nadin\Desktop\Github\Jour1>git branch
+  main
+  master
+* menu
+  recuperation
+
+C:\Users\nadin\Desktop\Github\Jour1>git branch main
+fatal: a branch named 'main' already exists
+
+C:\Users\nadin\Desktop\Github\Jour1>git branch recuperation
+fatal: a branch named 'recuperation' already exists
+
+C:\Users\nadin\Desktop\Github\Jour1>gitk         
+
+C:\Users\nadin\Desktop\Github\Jour1>
+ *  Historique restauré 
+
+Microsoft Windows [version 10.0.22621.1413]
+(c) Microsoft Corporation. Tous droits réservés.
+
+C:\Users\nadin\Desktop\Github\Jour1>
+ *  Historique restauré 
+
+Microsoft Windows [version 10.0.22621.1413]
+(c) Microsoft Corporation. Tous droits réservés.
+
+C:\Users\nadin\Desktop\Github\Jour1>
+ *  Historique restauré 
+Microsoft Windows [version 10.0.22621.1413]
+(c) Microsoft Corporation. Tous droits réservés.
+
+C:\Users\nadin\Desktop\Github\Jour1>git add --all
+
+C:\Users\nadin\Desktop\Github\Jour1>git commit -m "menu"
+On branch menu
+nothing to commit, working tree clean
+
+C:\Users\nadin\Desktop\Github\Jour1>git log --oneline
+unknown option: --oneline
+usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--config-env=<name>=<envvar>] <command> [<args>]
+
+C:\Users\nadin\Desktop\Github\Jour1>git branch
+  main
+  master
+* menu
+  recuperation
+
+C:\Users\nadin\Desktop\Github\Jour1>git status
+On branch menu
+nothing to commit, working tree clean
+
+C:\Users\nadin\Desktop\Github\Jour1>git branch css
+
+C:\Users\nadin\Desktop\Github\Jour1>git branch
+  css
+  main
+  master
+* menu
+  recuperation
+
+C:\Users\nadin\Desktop\Github\Jour1>
+
+=> erreur = confusion entre 
+
+git branch <nom>  => créer la branch <nom> 
+git checkout <nom> => déplacer sur la branch <nom>
+
+----------- 
+
+git checkout -b <nom>  => créer la branch <nom>  ET se déplacer dessus 
+
 
 
