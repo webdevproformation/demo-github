@@ -13,6 +13,8 @@ branch =>
 
 https://onlywei.github.io/explain-git-with-d3/
 
+-------------
+
 cas pratique :
 
 dans le dossier jour2 => créer un fichier 01-exo.html mettre une barre de menu add + commit 
@@ -25,7 +27,7 @@ ajouter dans le fichier style.css qui va styliser le formulaire add et commit
 
 positionner sur la branch principale fusionner la branch principale avec la branch css 
 
-
+=> draw.io integration
 
 
 
