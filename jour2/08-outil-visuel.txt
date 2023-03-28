@@ -31,3 +31,7 @@ utiliser le bouton commit => ne pas le message
 créer des branch facilement dans Visual Studio
 git branch visual-studio
 git checkout visual-studio
+
+coucou
+
+
