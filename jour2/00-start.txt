@@ -1,0 +1,18 @@
+https://formation.webdevpro.net/git (saisir directement dans la barre d'adresse pas dans Google)
+login : git
+password : git
+(mettre les login et password en minuscule)
+
+notes de cours :
+https://bitbucket.org/formationwebdevpro/git-d-mars-2023/src/main/
+
+dessiner des schéma directement dans VSC => 
+1 installer l'extension draw.io Integration
+2 créer un fichier .....drawio
+branch => 
+
+https://onlywei.github.io/explain-git-with-d3/
+
+
+
+
