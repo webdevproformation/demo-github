@@ -37,3 +37,9 @@ tutu
 
 un ajout
 
+=> pause café => rdv 14h49 => 
+=> connecté mon projet local => repo distant 
+
+=> push (pousser notre projet local) => dépot distant 
+=> bitbucket 
+
