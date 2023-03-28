@@ -1,0 +1,23 @@
+vous pouvez créer un fichier .gitignore
+
+=> créer un fichier qui a UNIQUEMENT une extension 
+
+fichier de configuration du projet 
+dans vous allez liste le ou les fichiers / le ou les dossiers qui ne doivent être ajouté dans le repository local 
+
+ce fichier donne des instructions à la commande git 
+préciser la liste des fichiers / des dossiers que l'on ne veut pas versionner 
+
+
+
+le fichier .gitignore peut être créé n'importe où dans votre projet 
+en général il est mis à la racine du projet 
+
+---------------------
+
+cas pratique 
+
+créer un fichier .gitignore à la racine du projet git 
+créer un dossier image dans le dossier jour1 => mettre dedans une image de votre choix 
+
+dans le fichier .gitignore bloquer le version pour le contenu du dossier image situé dans le dossier jour1 

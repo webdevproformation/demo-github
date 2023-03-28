@@ -37,9 +37,16 @@ tutu
 
 un ajout
 
-=> pause café => rdv 14h49 => 
+=> pause café => rdv 14h50 => 
 => connecté mon projet local => repo distant 
 
 => push (pousser notre projet local) => dépot distant 
-=> bitbucket 
+=> bitbucket => bon café rdv 14h50 @ toute suite 
+
+=> react native 
+=> requete http => ajax 
+new XmlHttpRequest()
+fetch()
+$.ajax()
+axios 
 
