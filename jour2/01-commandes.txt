@@ -1,0 +1,24 @@
+travail sur branch main
+git add --all
+git commit -m "..."
+
+travail sur branch main
+git add --all
+git commit -m "..."
+
+git branch css  # crée
+git checkout css  # se déplacer 
+#ou 
+git checkout -b css # une commande crée + se déplacer
+
+travail sur branch css
+git add --all
+git commit -m "..."
+
+travail sur branch css
+git add --all
+git commit -m "..."
+
+git checkout main (ou master)
+git merge css # fusionner 
+git branch -d css # supprimer le nom de la branch 
