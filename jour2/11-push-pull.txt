@@ -1,3 +1,5 @@
-git push local sur la branch encours  > distant la branch encours
+git push  # local sur la branch main  > distant la branch main 
+
+git push --set-upstream origin explication + créer la branch explication dans bitbucket
 
 git pull remote > local
