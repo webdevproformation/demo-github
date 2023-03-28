@@ -17,3 +17,17 @@ git add jour2/01-exo.html
 git add jour2/01-exo.html 
 
 git restore --staged jour2/01-exo.html jour2/08-outil-visuel.txt  
+
+git commit -m "un message"
+
+=> cas pratique :
+modifier un ou plusieurs fichiers 
+utiliser le bouton + à côté du change dans source control 
+
+utiliser le bouton commit => ne pas le message 
+
+----------------------- 
+
+créer des branch facilement dans Visual Studio
+git branch visual-studio
+git checkout visual-studio
