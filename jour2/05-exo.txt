@@ -1,0 +1,18 @@
+créer un fichier 05-exo.html 
+
+remplir avec une balise h1 vide 
+
+créer une branche en 
+se positionner dessus 
+remplir la balise h1 avec le texte "j'ai compris"
+add + commit 
+
+se repositionner sur la branch principale 
+remplir la balise h1 avec le texte "I know"
+add et commit 
+
+merge 
+
+=> conflit 
+
+résoudre le conflit 
