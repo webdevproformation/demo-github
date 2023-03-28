@@ -16,3 +16,43 @@ merge
 => conflit 
 
 résoudre le conflit 
+
+créer un fichier 
+
+feliciaayodeji@Felicias-Air git % git add --all                                  
+feliciaayodeji@Felicias-Air git % git commit -m "h1"       
+[main 275966e] h1
+ 3 files changed, 48 insertions(+), 12 deletions(-)
+ create mode 100644 jour2/04-exo.html
+
+feliciaayodeji@Felicias-Air git % git branch          
+* main
+
+
+feliciaayodeji@Felicias-Air git % git add --all     
+feliciaayodeji@Felicias-Air git % git commit -m "j'ai compris"
+[main 12c7ada] j'ai compris
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+feliciaayodeji@Felicias-Air git % git branch h1               
+feliciaayodeji@Felicias-Air git % git checkout h1             
+Switched to branch 'h1'
+feliciaayodeji@Felicias-Air git % git merge h1                
+Already up to date.
+feliciaayodeji@Felicias-Air git % git add --all               
+feliciaayodeji@Felicias-Air git % git commit -m "I know"      
+[h1 6640b57] I know
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+feliciaayodeji@Felicias-Air git % git checkout h1       
+Already on 'h1'
+feliciaayodeji@Felicias-Air git % git branch -d h1            
+error: Cannot delete branch 'h1' checked out at '/Users/feliciaayodeji/Documents/git'
+feliciaayodeji@Felicias-Air git % git branch -d   
+fatal: branch name required
+feliciaayodeji@Felicias-Air git % git branch menu 
+feliciaayodeji@Felicias-Air git % git checkout menu
+Switched to branch 'menu'
+feliciaayodeji@Felicias-Air git % git merge menu        
+Already up to date.
+feliciaayodeji@Felicias-Air git % git branch -d menu
+error: Cannot delete branch 'menu' checked out at '/Users/feliciaayodeji/Documents/git'
+feliciaayodeji@Felicias-Air git %
