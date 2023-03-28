@@ -1,0 +1,19 @@
+exécuté toutes les commandes directement dans le terminal 
+
+il existe de nombreux outils pour réliser les commandes en faisant => click 
+
+gui => Graphical User Interface 
+
+cli => Commande Line Interface 
+
+=>  Directement dans Visual Studio vous pouvez réaliser toutes les commandes 
+=> Avoir à écrire les commandes 
+
+=> Onglet source control 
+
+git add --all
+
+git add jour2/01-exo.html 
+git add jour2/01-exo.html 
+
+git restore --staged jour2/01-exo.html jour2/08-outil-visuel.txt  
