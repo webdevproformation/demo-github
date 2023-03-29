@@ -1,0 +1,41 @@
+10-remote-repository.txt
+
+remote => distant 
+repository => dépôt 
+
+=> stocker le dossier .git
+
+envoyer les fichiers source + le dossier .git (repository local)
+
+=> site internet qui peut recevoir ce code => le mettre en forme 
+
+=> github => 4 Juin 2018 acheté par Microsoft en 2018 
+https://formation.webdevpro.net/git/img/00/alternatives-github-rachat-microsoft.png
+
+=> gitlab
+=> bitbucket 
+
+=> https://bitbucket.org et vous créer un profil utilisateur 
+
+git init => sur le site internet nom projet / .... 
+
+
+
+git remote add origin https://webdevproformation@bitbucket.org/formationwebdevpro/demo.git
+git distant connecté les 2 git (local <====> remote )
+
+git remote 
+    add origin https://webdevproformation@bitbucket.org/formationwebdevpro/demo.git
+
+    origin (alias de l'url ) === https://webdevproformation@bitbucket.org/formationwebdevpro/demo.git
+    origin à la place de saisir l'url complet 
+
+
+git push -u origin master
+
+-------------------
+
+bitbucket 
+système d'onglet => source (liste de tous les fichiers que vous allez partarger si le projet est publique)
+
+
