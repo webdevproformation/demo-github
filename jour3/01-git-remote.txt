@@ -73,3 +73,5 @@ git push -u github main
 git add --all 
 git add -A
 git add *
+
+git add . 
