@@ -1,0 +1,42 @@
+https://formation.webdevpro.net/git (saisir directement dans la barre d'adresse pas dans Google)
+login : git
+password : git
+(mettre les login et password en minuscule)
+
+notes de cours :
+https://bitbucket.org/formationwebdevpro/git-d-mars-2023/src/main/
+
+
+travail qui est stocké sur le disque dur ET 
+créer un repository sur un site internet (Bitbucket / Github / GitLab ....)
+
+
+en local 
+git init 
+git add --all 
+git commit -m "présentation"
+
+=> aller sur un des sites internet => créer un repository (remote / distant)
+=> formulaire à remplir
+
+en local 
+git remote add origin <https://.....url.git>
+git push -u origin <nom_branch> 
+// prendre le travail en local et le Push (l'envoyer) version origin (alias) sur la branch <nom_branch> 
+la première fois => demander authentification (identifiants du site internet )
+
+=> si tout a bien marché => SYNCHRONISE le dépot local avec le dépot distant 
+
+
+--------------------
+
+un fois que c'est fait 
+
+travailler sur des fichiers 
+Enregistrer 
+git add --all 
+git commit -m "explication"
+git push 
+
+pas besoin de faire la commande git remote (c'est enregistré )
+pas besoin de resaisir les identifiants (c'est enregistré)
