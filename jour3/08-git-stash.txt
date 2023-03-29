@@ -22,3 +22,13 @@ git branch <nom>
 git checkout <nom>
 
 git checkout -b <nom> 
+
+cas pratique :
+dans la branch main => modifier 3 fichiers ajoutant du code / supprimant du code 
+stasher ces modifications 
+créer une branch exo4 et se positionner dessus 
+récupérer les informations dans le stash cette branch 
+add et commit 
+vider le stash 
+retour sur la branch principale
+merge et supprimer la branch exo4
