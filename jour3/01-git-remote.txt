@@ -42,3 +42,32 @@ git remote add exemple https://blabla.com
 git remote --verbose
 git remote remove exemple
 git remote --verbose
+
+
+----------------------
+
+si vous avez un seul remote => 
+
+git push (il va rajouter automatiquement) origin main 
+
+----------------------
+
+si vous avez PLUSIEURS remote 
+
+git push github main 
+
+---------------------
+
+cas pratique => 
+1 créer un compte utilisateur sur github.com
+2 .... create repository 
+3 remplir le formulaire (nom)
+4 git remote add github https://github.com/webdevproformation/demo-github.git
+
+git push -u github main
+
+------------------------------------
+
+=> récupérer des informations depuis un projet distant 
+
+git 
