@@ -1,0 +1,10 @@
+git stash =>
+
+a stash => planque (cachette) 
+
+git stash permet de cacher tout le code que vous avez écrit pour le stock mémoire hors de hors des commits / hors des branch 
+
+j'ai n'ai fait de add / pas de commit 
+
+
+bonjour les amis !!! 

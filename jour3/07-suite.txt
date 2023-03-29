@@ -1,0 +1,7 @@
+- présenter github (ressemble beaucoup à bitbucket)
+- git flow 
+
+travail en groupe pour bien gérer les branch / hotfix release / feature 
+
+rdv 13h40 bon appétit !!!!!!!!!!!!!!!!!!!!
+
