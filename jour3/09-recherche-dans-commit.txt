@@ -21,3 +21,15 @@ demain
 => vous pouvez créer un mode d'emploi site dédié à l'explication de votre projet 
 => README.md 
 => login / password directement dans le code 
+
+
+https://webdevproformation.github.io/demo-github
+
+créer un fichier index.html à la racine de votre projet 
+un peu de html et un peu de css / un peu de js 
+
+push sur la branch main de github 
+
+setting => page => publier => 
+
+https://nom-user.github.io/nom-repo
