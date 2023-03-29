@@ -75,3 +75,15 @@ git add -A
 git add *
 
 git add . 
+
+----------------------
+
+git pull
+git fetch  
+
+git clone 
+
+pull request 
+
+fork 
+=> rdv 10h45 @ toute suite !!!!!!!!!!!
