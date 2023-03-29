@@ -32,3 +32,16 @@ add et commit
 vider le stash 
 retour sur la branch principale
 merge et supprimer la branch exo4
+
+
+git add --all 
+git commit -m "message"
+
+git commit -a -m "message"
+
+-----------------------
+
+présenter github 
+git flow 
+
+rdv 15h30 bon café !!!!!!!!!!!!!!!!!!!!!!!!!
