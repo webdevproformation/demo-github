@@ -8,3 +8,17 @@ j'ai n'ai fait de add / pas de commit
 
 
 bonjour les amis !!! 
+
+
+git stash save "nom" => sauvegarder le code non commit dans une stash 
+git stash list => liste de toutes stash 
+git stash apply stash{0} => prendre le contenu de la stash et copier dans la branch en cours (sans supprimer la stash)
+git stash  pop    => prendre le contenu du dernier stash et le supprime 
+git stash drop stash{0} => supprimer la stash numéro 1
+git stash clear (supprime tous les stash )
+
+lorsque l'on travaille et que l'on se trompe de branch 
+git branch <nom>
+git checkout <nom>
+
+git checkout -b <nom> 

@@ -5,3 +5,4 @@ travail en groupe pour bien gérer les branch / hotfix release / feature
 
 rdv 13h40 bon appétit !!!!!!!!!!!!!!!!!!!!
 
+function b(){}
