@@ -7,3 +7,17 @@ git log -- README.md
 
 git log --author="sabrina" --oneline
 git log --grep="jour" --oneline
+
+présentation de github 
+
+git action => CI / CD 
+=> push un projet sur un github => réaliser des tests // déployer sur un hébergement
+demain 
+=> Trello => https://trello.com/fr
+=> gestion de projet tache / livrable / date de livraison / importance 
+=>                   affecter à une personne  
+=> management 
+
+=> vous pouvez créer un mode d'emploi site dédié à l'explication de votre projet 
+=> README.md 
+=> login / password directement dans le code 
