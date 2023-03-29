@@ -35,3 +35,10 @@ git log => journal historique de tous les commits réalisés
 => cas pratique 
 => ajouter un nouveau remote dans votre projet (de votre choix)
 => lister et le supprimer 
+
+correction de l'exo !
+
+git remote add exemple https://blabla.com 
+git remote --verbose
+git remote remove exemple
+git remote --verbose
