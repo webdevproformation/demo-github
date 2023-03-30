@@ -1,0 +1,60 @@
+CI CD 
+
+Continous Integration => intégration continue
+Continous Deployment => Déploiement continu 
+
+Nouvelle manière de travailler 
+dans laquelle on va impliquer les équipes de développeurs (code)
+                              les équipes d'exploitation (ingénieur en charge des infrastructures => 
+                              ordinateurs qui vont exécuter le code )
+
+Faciliter le travail ces deux équipes => CI CD 
+
+Ensemble de traitements que l'on va mettre en place qui va permettre de clarifier le transfert du code 
+d'une équipe à l'autre 
+
+=> DevOps connaitre toute la chaine de production au déploiement 
+=> idée => code => test => créer des machines stockée => diffuser => client utiliser 
+
+=> durée : idée => client => Time To Market
+=> Integration Hell => Infernal => réduire Integration Hell
+
+=> pipeline de déploiement 
+
+=> tout seul 
+=> travailler sur votre ordinateur => fini votre code 
+=> FileZilla => code dans l'ordinateur => tranférer vers hébergement
+=> test pour fiabiliser le transfert 
+=> hébergement (OVH / github pages)
+
+=> si vous voulez tester la technologie => gratuit MAIS 
+gitlab => mettre un numéro de carte 
+
+=> Filezilla (gratuit)
+=> windows 
+=> ligne de commande : scp rsync 
+=> git push 
+
+=> installer nodejs 
+=> https://nodejs.org/en
+
+=> node --version
+=> v18.15.0
+=> installer react (version web) pour l'exemple 
+=> installer dans un projet à part => plus clair 
+
+je vais sur le bureau 
+lancer un terminal depuis le bureau 
+
+npm create vite  Enter
+nom projet => react  Enter
+selectionner React  Enter
+selectionner Javascript Enter
+
+cd react
+npm install
+npm run dev
+
+http://localhost:5173/ => projet React (web) prêt à l'emploi 
+
+
