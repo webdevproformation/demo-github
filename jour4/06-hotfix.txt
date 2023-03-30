@@ -10,3 +10,6 @@ git flow hotfix start menu
 git add 
 git commit 
 git flow hotfix finish menu 
+
+rdv 15h35 bon café !! @ toute suite !!
+=> CI CD 
