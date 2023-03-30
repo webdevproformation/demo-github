@@ -1,0 +1,36 @@
+vous travaillez en équipe plus de 3 développeurs sur un projet 
+
+très forte chance que deux personnes travaillent sur le même fichier sur la même ligne 
+conflit au sens de git 
+
+règle pour nommer les branchs 
+
+2 développeurs => principal main et master 
+2 développeurs => fonctionnalité malik/page-contact // dev/page-cgv
+
+=> se mettre d'accord sur COMMENT on appelle les branch / comment on coupe les branch ?? 
+
+git flow (macro commande)
+git flow => commande à saisir et méthode de travail 
+git flow init (créer le dépot .git caché - repository local mais en + principal main + questions en + nom des branch prefix des branch pour le projet  )
+
+une question ????? vous m'entendez ???
+=> créer un nouveau projet pour tester git flow 
+=> le projet encours => il va juste service pour prendre des notes 
+
+vous m'entendez ?? => je restart @ tout suite 
+
+=> ici je prends des notes 
+=> je vais créer un autre projet pour vous présenter git flow 
+
+
+créer un dossier flow
+créer un fichier index.html avec du html 
+
+git init 
+git flow init => Enter 
+    créer renommer la branch principal (master)
+    créer une branch develop 
+    stocké en mémoire préfix pour des futures branch 
+    checkout sur develop
+gitk --all 

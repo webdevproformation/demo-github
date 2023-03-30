@@ -48,3 +48,8 @@ github pages => permet de mettre en ligne des pages web statique (css / html et 
 
 => 1 créer un fichier index.html à la racine de mon projet  sur main 
 => 2 push => dépot distant
+
+git flow 
+CI CD => Continus Integration / Continus Delivery 
+(Coder non stop et déployer non stop  sans arrêt )
+
