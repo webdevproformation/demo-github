@@ -1,0 +1,27 @@
+https://formation.webdevpro.net/git (saisir directement dans la barre d'adresse pas dans Google)
+login : git
+password : git
+(mettre les login et password en minuscule)
+
+notes de cours :
+https://bitbucket.org/formationwebdevpro/git-d-mars-2023/src/main/
+
+
+
+git add --all 
+j'utilise plus git add . 
+avant 
+git add --all
+git add -A 
+=> quelque soit le cas de figure => tout est sélectionner
+
+git add * => * TOUT en SQL MAIS attention 
+            en fonction du shell dans le quel on utilise cette commande * peut ommettre
+            certain fichier 
+            si cmd et un fichier qui commence par .env à la racine et à la racine  git add * 
+            si gitbash git add *
+git add . 
+=> quelque soit le cas de figure => tout est sélectionner
+
+----------------
+
