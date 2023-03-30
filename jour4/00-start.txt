@@ -28,10 +28,10 @@ git add .
 git add --all
 git commit -m "..."
 
-git commit -a -m "...." OK uniqument pour les fichiers M
+git commit -a -m "...." OK uniquement pour les fichiers Modifified (fichier Untracked ne sont add et commit )
 
-git commit --all -m "...."
-git commit -am "...."
+git commit --all -m "...." => ????
+git commit -am "...."  => ????
 
 git commit -A -m "...." => non
 git commit -m -a "...." => non
