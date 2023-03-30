@@ -46,5 +46,5 @@ github pages => permet de mettre en ligne des pages web statique (css / html et 
 => combien de temps ? => 2 min max sinon pb 
 => il faut un fichier index.html à la racine d'une branch
 
-=> 1 créer un fichier index.html à la racine de mon projet 
-=> 
+=> 1 créer un fichier index.html à la racine de mon projet  sur main 
+=> 2 push => dépot distant
