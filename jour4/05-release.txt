@@ -16,3 +16,12 @@ TAG => explicitement de saisir un TAG
 => Esc 
 => :wq write quit 
 => Enter 
+
+cas pratique : 
+créer une nouvelle release => v1.2
+mettre le bouton afficher les pays et script dans un fichier index.html 
+mettre le bouton afficher les cocktails et script dans un fichier cocktails.html
+mettre à jour le menu 
+=> add et commit 
+=> dernier test visuel 
+=> finaliser la release  
