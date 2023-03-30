@@ -37,3 +37,14 @@ git commit -A -m "...." => non
 git commit -m -a "...." => non
 
 une modification 
+
+----------------------
+
+github pages => permet de mettre en ligne des pages web statique (css / html et js )
+
+=> branch spéciale => non n'importe quelle branch 
+=> combien de temps ? => 2 min max sinon pb 
+=> il faut un fichier index.html à la racine d'une branch
+
+=> 1 créer un fichier index.html à la racine de mon projet 
+=> 
