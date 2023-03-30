@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button>show cocktails</button>
+    <div class="cocktails"></div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script>
+        // mise en forme 
+        $(".cocktails").css({
+                display : "grid",
+                "grid-template-columns" : "repeat(3, 1fr)",
+                gap : 10,
+                "max-width": 1200,
+                margin : "0 auto"
+        });
+        
+        // générer l'affichage 
+        function getCocktails(data){
+            const cocktails = data.drinks ;
+            let html = "";
+            for(let cocktail of cocktails){
+                html += `
+                    <article>
+                        <h2>${cocktail.strDrink}</h2>
+                        <img src="${cocktail.strDrinkThumb}" alt="" style="width:100%">
+                        <p>${cocktail.strInstructions}</p>
+                    </article>
+                `;
+            }
+            return html ;
+        }
+
+        // appel ajax lorsque l'on clique sur le bouton 
+        $("button").eq(1).on("click", function(){
+            
+            const url = "https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita"
+            
+            // solution 1 avec $.getJSON()
+            $.getJSON(url, function(data){
+                    $(".cocktails").html(getCocktails(data));
+                }
+            );
+            // solution 2 avec $.ajax()
+            /* $.ajax(url , {
+                success : function(data){
+                    $(".cocktails").html(getCocktails(data));
+                }
+            }); */
+        })
+    </script>
+</body>
+</html>
