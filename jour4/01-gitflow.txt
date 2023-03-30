@@ -34,3 +34,23 @@ git flow init => Enter
     stocké en mémoire préfix pour des futures branch 
     checkout sur develop
 gitk --all 
+rdv 10h42 bon café !!!
+
+=> je veux ajouter un menu => feature =>
+travail + add + commit 
+branch + checkout => git flow feature start menu 
+ + travail + add + commit +
+ checkout develop + merge + branch -d feature/menu => git flow feature finish menu 
+
+git flow feature start menu 
+git flow feature finish menu 
+
+Cas pratique :
+pouvez vous ajouter une nouvelle feature à votre projet  => ajax
+
+ajouter un bouton dans votre page web 
+lorsque vous cliquer dessus => requête ajax qui va appeler une API (retourne une liste de pays)
+afficher la liste des pays SOUS le bouton 
+utiliser jquery pour réaliser ce travail 
+
+=> clore la branch feature/ajax 

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <ul class="menu">
+        <li>Accueil</li>
+        <li>Nous Contacter</li>
+        <li>Connexion</li>
+    </ul>
+    <p>découvrir git flow</p>
+    <!-- 1 ajouter un bouton à cliquer + ajoute une balise dans laquelle je vais mettre les resultats -->
+    <button>recupérer les pays du monde</button>
+    <ol class="resultats"></ol>
+    <!-- 2 télécharger jquery => jquery.com > Download > section CDN 
+        https://developers.google.com/speed/libraries?hl=fr#jquery
+    -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <!-- 3 créer mon script js en utilisant jquery après le télécharger -->
+    <script>
+        // écouter quand je clique sur le bouton 
+
+        $("button").on("click" , function(){
+
+            // jquery.com => api documentation => 
+            // https://api.jquery.com/jquery.ajax/#jQuery-ajax-url-settings
+            // décrire comment utiliser la fonction 
+            // https://restcountries.com/
+            // https://restcountries.com/v3.1/all
+
+            $.ajax( "https://restcountries.com/v3.1/all" , {
+                success : function(tableauPays){ 
+                    // attend que le réseau retourne une réponse en success
+                    // const tableauPays = reponse.responseJSON ; // tableau objet => collection
+                    let html = "";
+                    for(let pays of tableauPays){
+                        html += `<li>${pays.name.common} - ${pays.flag} </li>`
+                    }
+                    $(".resultats").html(html);
+                },
+                error : function(){
+                    // attend que le réseau retourne une réponse en erreur
+                    $(".resultats").html("<li>pb</li>");
+                },
+                complete : function(){
+                    // attend que le réseau retourne une réponse quelquelsoit
+                }
+            })
+        })
+    </script>
+</body>
+</html>
